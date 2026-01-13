@@ -15,6 +15,7 @@ The Flipkart Clone is a full-stack e-commerce web application inspired by the co
 * Tools & Libraries: npm, dotenv, nodemon, UUID, CORS, Body-Parser
 
 # Project Structure
+```text
 FlipKart-Clone/
 │
 ├── client/                     # Frontend (React)
@@ -33,35 +34,10 @@ FlipKart-Clone/
 │   ├── routes/                 # API routes
 │   ├── middleware/             # Authentication & middleware
 │   ├── config/                 # Database & server configuration
-│   └── server.js               # Backend entry point
+│   └── index.js                # Backend entry point
 │
-├── .gitignore                  # Ignored files (node_modules, env, etc.)
+├── .gitignore                  # Ignored files
 └── README.md                   # Project documentation
 
-# Structure Explanation
-The client directory contains all frontend-related code built with React, ensuring component reusability and clean UI logic. The server directory manages backend operations including API endpoints, database interactions, and authentication. This separation allows independent development, testing, and deployment of frontend and backend components.
 
-# Installation & Setup
-Make sure you have installed:
-* Node.js (v16+ recommended)
-* npm
-* MongoDB (local installation or MongoDB Atlas)
 
-# Backend Setup
-* Navigate to the backend directory: cd server
-* Install backend dependencies: npm install
-* Start MongoDB (make sure MongoDB is running on your system): mongod
-* Run the backend server: npm start
-
-# Frontend Setup
-* Navigate to the frontend directory: cd client
-* Install frontend dependencies: npm install --legacy-peer-deps
-* Start the React development server: npm start
-
-# Deployment
-* Frontend: Vercel / Netlify
-* Backend: Render / Railway
-* Database: MongoDB Atlas
-
-# License
-This project is created for educational and portfolio purposes.
