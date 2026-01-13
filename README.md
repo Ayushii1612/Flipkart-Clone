@@ -38,6 +38,3 @@ FlipKart-Clone/
 │
 ├── .gitignore                  # Ignored files
 └── README.md                   # Project documentation
-
-
-
